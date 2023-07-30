@@ -138,6 +138,23 @@ button {
     text-align: right;
 }
 
+.call {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 48px;
+    background-color: #3882f6;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 16px;
+}
+
+.call h2, p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
 .spacing {
     margin-left: 200px;
     margin-right: 200px;
