@@ -93,15 +93,14 @@ button {
 
 .info-content {
     display: flex;
-    gap: 20px;
+    justify-content: center;
 }
 
 .info-block {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
-    
+    text-align: center;
 }
 
 .info-image {
@@ -109,7 +108,11 @@ button {
     border-radius: 16px;
     height: 150px;
     width: 150px;
-    flex: auto;
+}
+
+.info-block p {
+    margin: 4px 0;
+    color: #1f2937;
 }
 
 .spacing {
