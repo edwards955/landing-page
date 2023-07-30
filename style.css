@@ -94,6 +94,7 @@ button {
 .info-content {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 .info-block {
@@ -113,6 +114,28 @@ button {
 .info-block p {
     margin: 4px 0;
     color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 90px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 4px;
+}
+
+.citation {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-top: 0;
+    text-align: right;
 }
 
 .spacing {
